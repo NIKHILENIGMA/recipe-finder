@@ -1,5 +1,4 @@
 import { Recipe } from '../types/recipe';
-import { router } from '../main'; // We'll define this in main.ts
 
 export function RecipeCard(recipe: Recipe): HTMLElement {
   const card = document.createElement('div');
@@ -11,9 +10,9 @@ export function RecipeCard(recipe: Recipe): HTMLElement {
     <p>Ready in ${recipe.readyInMinutes} minutes | Serves ${recipe.servings}</p>
   `;
   
-  card.addEventListener('click', () => {
-    router.navigate(`/recipes/${recipe.id}`);
-  });
+  // card.addEventListener('click', () => {
+  //   router.navigate(`/recipes/${recipe.id}`);
+  // });
   
   return card;
 }
