@@ -28,7 +28,7 @@ const render = () => {
   const footer = Footer();
   const main = document.createElement("main");
   main.innerHTML = renderContent;
-  main.classList = "p-4";
+  // main.classList = "p-4";
 
   root.appendChild(header);
   root.appendChild(main);
