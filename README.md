@@ -18,12 +18,13 @@ Recipe Finder helps you discover delicious recipes based on the ingredients you 
 
 ## Tech Stack
 
-- [Vite](https://vitejs.dev/) - Frontend build tool
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Markup language for structuring content
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Styling language for designing the UI
 - [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
-- [React](https://reactjs.org/) - UI library
-- [React Router](https://reactrouter.com/) - Navigation
 - [Axios](https://axios-http.com/) - API requests
-- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Flowbite](https://flowbite.com/) - UI components built with Tailwind CSS
+- [Spoonacular API](https://spoonacular.com/food-api) - Recipe and food search API
 
 ## Getting Started
 
@@ -45,15 +46,6 @@ lps you discover delicious recipes based on the ingredients you already have in 
 - View detailed recipe instructions and ingredient lists
 - Save favorite recipes for later
 - Responsive design for mobile and desktop use
-
-## Tech Stack
-
-- [Vite](https://vitejs.dev/) - Frontend build tool
-- [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
-- [React](https://reactjs.org/) - UI library
-- [React Router](https://reactrouter.com/) - Navigation
-- [Axios](https://axios-http.com/) - API requests
-- [Tailwind CSS](https://tailwindcss.com/) - Styling
 
 ## Getting Started
 
