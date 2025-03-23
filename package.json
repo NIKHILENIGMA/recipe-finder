@@ -9,7 +9,14 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/web": "^0.0.207",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "3",
     "typescript": "~5.7.2",
     "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "flowbite": "^3.1.2"
   }
 }
