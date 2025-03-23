@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://api.spoonacular.com";
+const API_BASE_URL = import.meta.env.VITE_SPOONACULAR_API_BASE_URL;
 const API_KEY = import.meta.env.VITE_SPOONACULAR_API_KEY;
 
 const options = (method: string) => ({
